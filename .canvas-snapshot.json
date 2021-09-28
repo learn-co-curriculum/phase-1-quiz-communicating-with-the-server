@@ -95,10 +95,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2270,
+          "id": 805,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -106,7 +106,7 @@
           "html": "<p>URL</p>"
         },
         {
-          "id": 241,
+          "id": 3133,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -114,7 +114,7 @@
           "html": "<p>HTTP Verb</p>"
         },
         {
-          "id": 7100,
+          "id": 9407,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -122,7 +122,7 @@
           "html": "<p>Headers</p>"
         },
         {
-          "id": 437,
+          "id": 8768,
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Status codes are included in the <strong>response</strong> from the server to\nindicate whether or not the request succeeded.</p>",
@@ -130,7 +130,7 @@
           "html": "<p>Status Code</p>"
         },
         {
-          "id": 1869,
+          "id": 8748,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -160,10 +160,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9147,
+          "id": 7274,
           "text": "",
           "comments": "",
           "comments_html": "<p>The URL is part of the <strong>request</strong> from the client, not the response from the\nserver.</p>",
@@ -171,7 +171,7 @@
           "html": "<p>URL</p>"
         },
         {
-          "id": 9407,
+          "id": 9270,
           "text": "",
           "comments": "",
           "comments_html": "<p>The HTTP Verb is part of the <strong>request</strong> from the client, not the response\nfrom the server.</p>",
@@ -179,7 +179,7 @@
           "html": "<p>HTTP Verb</p>"
         },
         {
-          "id": 7111,
+          "id": 5888,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -187,7 +187,7 @@
           "html": "<p>Headers</p>"
         },
         {
-          "id": 198,
+          "id": 7991,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -195,7 +195,7 @@
           "html": "<p>Status Code</p>"
         },
         {
-          "id": 5008,
+          "id": 7478,
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -203,7 +203,7 @@
           "html": "<p>Body</p>"
         },
         {
-          "id": 3305,
+          "id": 7628,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -233,10 +233,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/88213\">Using JSON Server and Postman to Mock Client/Server Communication</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/88213\">Using JSON Server and Postman to Mock Client/Server Communication</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7815,
+          "id": 9398,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"w\">\n  </span><span class=\"nl\">\"articles\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Example Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">},</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Second Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is also an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">}</span><span class=\"w\">\n  </span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"p\">}</span><span class=\"w\">\n</span></code></pre></div>",
           "comments": "",
@@ -244,7 +244,7 @@
           "weight": 100.0
         },
         {
-          "id": 9673,
+          "id": 5901,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n  <span class=\"nl\">articles</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Example Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">2</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Second Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is also an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">];</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
@@ -252,7 +252,7 @@
           "weight": 0.0
         },
         {
-          "id": 760,
+          "id": 9632,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -282,21 +282,21 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/asynchronous-javascript\">Asynchronous JavaScript</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/asynchronous-javascript\">Asynchronous JavaScript</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "",
           "text": "True",
           "weight": 100,
-          "id": 4300
+          "id": 5819
         },
         {
           "comments": "",
           "comments_html": "",
           "text": "False",
           "weight": 0,
-          "id": 484
+          "id": 1586
         }
       ],
       "variables": null,
@@ -321,10 +321,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/using-fetch\">Using fetch</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/using-fetch\">Using fetch</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7184,
+          "id": 561,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">json</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
@@ -332,7 +332,7 @@
           "weight": 100.0
         },
         {
-          "id": 2202,
+          "id": 2591,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">text</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
@@ -340,7 +340,7 @@
           "weight": 0.0
         },
         {
-          "id": 3146,
+          "id": 8726,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
@@ -348,7 +348,7 @@
           "weight": 0.0
         },
         {
-          "id": 4602,
+          "id": 4269,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -378,10 +378,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73936\">Sending Data with Fetch</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73936\">Sending Data with Fetch</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4935,
+          "id": 3170,
           "text": "JSON.stringify(formData)",
           "comments": "",
           "comments_html": "",
