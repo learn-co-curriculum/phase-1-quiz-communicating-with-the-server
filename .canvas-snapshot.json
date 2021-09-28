@@ -4,7 +4,7 @@
     "title": "Communicating with the Server Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12283",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12283?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-communicating-with-the-server\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-communicating-with-the-server/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-communicating-with-the-server\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-communicating-with-the-server/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 3,
-    "points_possible": 3.0,
+    "question_count": 6,
+    "points_possible": 6.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -82,45 +82,6 @@
   "questions": [
     {
       "quiz_id": 12283,
-      "id": 148166,
-      "quiz_group_id": null,
-      "assessment_question_id": 183381,
-      "position": null,
-      "question_name": "Asynchronous JavaScript",
-      "question_type": "true_false_question",
-      "question_text": "<p>The <code>setTimeout</code> function is an example of <strong>asynchronous</strong> JavaScript code.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/asynchronous-javascript\">Asynchronous JavaScript</a></p>",
-      "answers": [
-        {
-          "comments": "",
-          "comments_html": "",
-          "text": "True",
-          "weight": 100,
-          "id": 6014
-        },
-        {
-          "comments": "",
-          "comments_html": "",
-          "text": "False",
-          "weight": 0,
-          "id": 7415
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 12283,
       "id": 148167,
       "quiz_group_id": null,
       "assessment_question_id": 183382,
@@ -175,144 +136,6 @@
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0,
           "html": "<p>I don't know.</p>"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 12283,
-      "id": 148168,
-      "quiz_group_id": null,
-      "assessment_question_id": 183383,
-      "position": null,
-      "question_name": "JSON",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Which one of the following is valid JSON?</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/88213\">Using JSON Server and Postman to Mock Client/Server Communication</a></p>",
-      "answers": [
-        {
-          "id": 2341,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"w\">\n  </span><span class=\"nl\">\"articles\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Example Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">},</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Second Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is also an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">}</span><span class=\"w\">\n  </span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"p\">}</span><span class=\"w\">\n</span></code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct!</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 382,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n  <span class=\"nl\">articles</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Example Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">2</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Second Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is also an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">];</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. JSON objects must have double-quotes around the keys.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 3761,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 12283,
-      "id": 148169,
-      "quiz_group_id": null,
-      "assessment_question_id": 183384,
-      "position": null,
-      "question_name": "Sending Data with Fetch",
-      "question_type": "short_answer_question",
-      "question_text": "<p>We can send additional data in a request by using the <code>body</code> option when calling\n<code>fetch</code>. What code would you need to write next to the <code>body</code> option in the\n<code>configurationObject</code> to complete the example below?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">formData</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">dogName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byron</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">dogBreed</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Poodle</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">configurationObject</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">method</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">POST</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">headers</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n    <span class=\"dl\">\"</span><span class=\"s2\">Content-Type</span><span class=\"dl\">\"</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">application/json</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"na\">Accept</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">application/json</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"p\">},</span>\n  <span class=\"na\">body</span><span class=\"p\">:</span> <span class=\"nx\">________</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">http://localhost:3000/dogs</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">configurationObject</span><span class=\"p\">);</span>\n</code></pre></div>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73936\">Sending Data with Fetch</a></p>",
-      "answers": [
-        {
-          "id": 5589,
-          "text": "JSON.stringify(formData)",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 12283,
-      "id": 148170,
-      "quiz_group_id": null,
-      "assessment_question_id": 183385,
-      "position": null,
-      "question_name": "Fetch",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Yuli is making an application that interacts with the\n<a href=\"https://pokeapi.co\">Pokemon API</a>. The Pokemon API uses JSON as its response\nformat. Which of the following code snippets would allow her to send a request\nto the API and log a Pokemon object to the console?</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/using-fetch\">Using fetch</a></p>",
-      "answers": [
-        {
-          "id": 253,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">json</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct!</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 3304,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">text</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. In the first <code>.then</code> method, using <code>.text()</code> on the response will\npass a string of text to the next <code>.then</code> rather than a Pokemon object.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7605,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. In the <code>.then</code> method, we'll have access to the raw response\nobject, which has a JSON-formatted string in the body. How can we convert that\nJSON string to a JavaScript object?</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7821,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
         }
       ],
       "variables": null,
@@ -386,6 +209,183 @@
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0,
           "html": "<p>I don't know.</p>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12283,
+      "id": 148168,
+      "quiz_group_id": null,
+      "assessment_question_id": 183383,
+      "position": null,
+      "question_name": "JSON",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which one of the following is valid JSON?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/88213\">Using JSON Server and Postman to Mock Client/Server Communication</a></p>",
+      "answers": [
+        {
+          "id": 2341,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"w\">\n  </span><span class=\"nl\">\"articles\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Example Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">},</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">2</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Second Article\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"content\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"This is also an example.\"</span><span class=\"w\">\n    </span><span class=\"p\">}</span><span class=\"w\">\n  </span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"p\">}</span><span class=\"w\">\n</span></code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 382,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n  <span class=\"nl\">articles</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Example Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n    <span class=\"p\">{</span>\n      <span class=\"na\">id</span><span class=\"p\">:</span> <span class=\"mi\">2</span><span class=\"p\">,</span>\n      <span class=\"na\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Second Article</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n      <span class=\"na\">content</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">This is also an example.</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"p\">},</span>\n  <span class=\"p\">];</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Not quite. JSON objects must have double-quotes around the keys.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3761,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12283,
+      "id": 148166,
+      "quiz_group_id": null,
+      "assessment_question_id": 183381,
+      "position": null,
+      "question_name": "Asynchronous JavaScript",
+      "question_type": "true_false_question",
+      "question_text": "<p>The <code>setTimeout</code> function is an example of <strong>asynchronous</strong> JavaScript code.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/asynchronous-javascript\">Asynchronous JavaScript</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 100,
+          "id": 6014
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 0,
+          "id": 7415
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12283,
+      "id": 148170,
+      "quiz_group_id": null,
+      "assessment_question_id": 183385,
+      "position": null,
+      "question_name": "Fetch",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Yuli is making an application that interacts with the\n<a href=\"https://pokeapi.co\">Pokemon API</a>. The Pokemon API uses JSON as its response\nformat. Which of the following code snippets would allow her to send a request\nto the API and log a Pokemon object to the console?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/using-fetch\">Using fetch</a></p>",
+      "answers": [
+        {
+          "id": 253,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">json</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 3304,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">text</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Not quite. In the first <code>.then</code> method, using <code>.text()</code> on the response will\npass a string of text to the next <code>.then</code> rather than a Pokemon object.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7605,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Not quite. In the <code>.then</code> method, we'll have access to the raw response\nobject, which has a JSON-formatted string in the body. How can we convert that\nJSON string to a JavaScript object?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7821,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12283,
+      "id": 148169,
+      "quiz_group_id": null,
+      "assessment_question_id": 183384,
+      "position": null,
+      "question_name": "Sending Data with Fetch",
+      "question_type": "short_answer_question",
+      "question_text": "<p>We can send additional data in a request by using the <code>body</code> option when calling\n<code>fetch</code>. What code would you need to write next to the <code>body</code> option in the\n<code>configurationObject</code> to complete the example below?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">formData</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">dogName</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Byron</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">dogBreed</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Poodle</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">configurationObject</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n  <span class=\"na\">method</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">POST</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"na\">headers</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n    <span class=\"dl\">\"</span><span class=\"s2\">Content-Type</span><span class=\"dl\">\"</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">application/json</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n    <span class=\"na\">Accept</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">application/json</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"p\">},</span>\n  <span class=\"na\">body</span><span class=\"p\">:</span> <span class=\"nx\">________</span><span class=\"p\">,</span>\n<span class=\"p\">};</span>\n\n<span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">http://localhost:3000/dogs</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"nx\">configurationObject</span><span class=\"p\">);</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/assignments/73936\">Sending Data with Fetch</a></p>",
+      "answers": [
+        {
+          "id": 5589,
+          "text": "JSON.stringify(formData)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
