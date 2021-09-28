@@ -1,7 +1,7 @@
 ---
 id: 12283
 course_id: 3297
-repo: phase-1-quiz-communicating-with-the-server-quiz
+repo: phase-1-quiz-communicating-with-the-server
 ---
 
 # Communicating with the Server Quiz
