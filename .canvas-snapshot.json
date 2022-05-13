@@ -4,7 +4,7 @@
     "title": "Communicating with the Server Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12283",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12283?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-communicating-with-the-server\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-communicating-with-the-server/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-communicating-with-the-server\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-communicating-with-the-server/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,7 +99,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 805,
+          "id": "805",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -107,7 +107,7 @@
           "html": "<p>URL</p>"
         },
         {
-          "id": 3133,
+          "id": "3133",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -115,7 +115,7 @@
           "html": "<p>HTTP Verb</p>"
         },
         {
-          "id": 9407,
+          "id": "9407",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -123,7 +123,7 @@
           "html": "<p>Headers</p>"
         },
         {
-          "id": 8768,
+          "id": "8768",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Status codes are included in the <strong>response</strong> from the server to\nindicate whether or not the request succeeded.</p>",
@@ -131,7 +131,7 @@
           "html": "<p>Status Code</p>"
         },
         {
-          "id": 8748,
+          "id": "8748",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -164,7 +164,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/how-the-web-works?module_item_id=173350\">How the Web Works</a></li><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/video-intro-to-the-internet?module_item_id=270745\">Video: Intro to the Internet</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7274,
+          "id": "7274",
           "text": "",
           "comments": "",
           "comments_html": "<p>The URL is part of the <strong>request</strong> from the client, not the response from the\nserver.</p>",
@@ -172,7 +172,7 @@
           "html": "<p>URL</p>"
         },
         {
-          "id": 9270,
+          "id": "9270",
           "text": "",
           "comments": "",
           "comments_html": "<p>The HTTP Verb is part of the <strong>request</strong> from the client, not the response\nfrom the server.</p>",
@@ -180,7 +180,7 @@
           "html": "<p>HTTP Verb</p>"
         },
         {
-          "id": 5888,
+          "id": "5888",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -188,7 +188,7 @@
           "html": "<p>Headers</p>"
         },
         {
-          "id": 7991,
+          "id": "7991",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -196,7 +196,7 @@
           "html": "<p>Status Code</p>"
         },
         {
-          "id": 7478,
+          "id": "7478",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -204,7 +204,7 @@
           "html": "<p>Body</p>"
         },
         {
-          "id": 7628,
+          "id": "7628",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -315,7 +315,7 @@
       "position": null,
       "question_name": "Fetch",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Yuli is making an application that interacts with the\n<a href=\"https://pokeapi.co\">Pokemon API</a>. The Pokemon API uses JSON as its response\nformat. Which of the following code snippets would allow her to send a request\nto the API and log a Pokemon object to the console?</p>",
+      "question_text": "<p>Yuli is making an application that interacts with a Pokemon API which uses\nJSON as its response format. Assuming that Yuli has created a variable <code>URL</code>\nthat contains the correct API endpoint to fetch a single Pokemon instance, Which\nof the following code snippets would send a request to the API then log a\nPokemon object to the console?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -325,25 +325,25 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/using-fetch\">Using fetch</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 561,
+          "id": 8993,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">json</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"nx\">URL</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">json</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100.0
         },
         {
-          "id": 2591,
+          "id": 2449,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">text</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"nx\">URL</span><span class=\"p\">)</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">resp</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">resp</span><span class=\"p\">.</span><span class=\"nx\">text</span><span class=\"p\">())</span>\n  <span class=\"p\">.</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "<p>Not quite. In the first <code>.then</code> method, using <code>.text()</code> on the response will\npass a string of text to the next <code>.then</code> rather than a Pokemon object.</p>",
           "weight": 0.0
         },
         {
-          "id": 8726,
+          "id": 8268,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">https://pokeapi.co/</span><span class=\"dl\">\"</span><span class=\"p\">).</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"nx\">fetch</span><span class=\"p\">(</span><span class=\"nx\">URL</span><span class=\"p\">).</span><span class=\"nx\">then</span><span class=\"p\">((</span><span class=\"nx\">pokemon</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">pokemon</span><span class=\"p\">));</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "<p>Not quite. In the <code>.then</code> method, we'll have access to the raw response\nobject, which has a JSON-formatted string in the body. How can we convert that\nJSON string to a JavaScript object?</p>",
           "weight": 0.0
@@ -382,7 +382,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73936\">Sending Data with Fetch</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3170,
+          "id": "3170",
           "text": "JSON.stringify(formData)",
           "comments": "",
           "comments_html": "",
