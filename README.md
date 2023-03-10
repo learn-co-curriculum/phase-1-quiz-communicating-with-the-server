@@ -1,6 +1,6 @@
 ---
-id: 12283
-course_id: 3297
+id: 42565
+course_id: 6638
 repo: phase-1-quiz-communicating-with-the-server
 ---
 
